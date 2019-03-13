@@ -1,7 +1,7 @@
 {
     "name": "css-autorelative",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build --target lib --name css-autorelative ./source/index.js",
