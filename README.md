@@ -1,29 +1,7 @@
-# css-autorelative
+自动添加 css 属性，当前仅包含 overflow:auto|scroll
 
-## Project setup
-```
-npm install
-```
+### overflow auto|scroll
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+存在`overflow:auto`或`overflow:scroll`时,如果下一行 css 不是`-webkit-overflow-scrolling:touch`，会自动添加`-webkit-overflow-scrolling:touch`
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+可以在`overflow:auto`后添加`/*no*/`注释阻止
