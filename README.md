@@ -1,4 +1,6 @@
-自动添加 css 属性，当前仅包含 overflow:auto|scroll
+自动添加 css 属性的webpackloader
+
+当前仅包含 overflow:auto|scroll
 
 ### overflow auto|scroll
 
