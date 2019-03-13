@@ -1,0 +1,27 @@
+root = true
+
+[*]
+charset = utf-8
+#会造成enter下一行，2s未输入内容，光标自动移动到行首的问题，原因不明
+#end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.html]
+indent_style = space
+indent_size = 4
+[*.js]
+indent_style = space
+indent_size = 4
+[*.vue]
+indent_style = space
+indent_size = 4
+[*.json]
+indent_style = space
+indent_size = 2
+[*.less]
+indent_style = space
+indent_size = 2
+[*.scss]
+indent_style = space
+indent_size = 2
